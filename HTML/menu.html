@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/section.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <header id="header">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#" style="margin-left: 5%">Tasty</a>
+                    </div>
+                    <ul class="Menu">
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-heart"></span></a>
+                        </li>
+                        <li>
+                            <a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                        </li>
+                    </ul>
+                    <div class="btn-Menu">
+                        <form>
+                            <button id="btn-bookTable" class="Menu">BOOK TABLE</button>
+                        </form>
+                    </div>
+                    <ul class="Menu">
+                        <li class="active"><a href="../index.html">HOME</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="service.html">SERVICE</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="../index.html#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="food_menu">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12" style="position: relative; text-align: center;">
+                        <span class="heading">Tasty</span>
+                        <h1 class="subheading">Menu</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="divCategory" style="float: left;margin-right: 5%;">
+                            <div id="category_box">
+                                <h3><a href="menu.html">ALL CATEGORIES</a></h3>
+                                <ul>
+                                    <li><a href="breakfast.html">Breakfast</a></li>
+                                    <li><a href="lunch.html">Lunch</a></li>
+                                    <li><a href="dinner.html">Dinner</a></li>
+                                    <li><a href="drink.html">Drinks</a></li>
+                                    <li><a href="dessert.html">Desserts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row" id="divMenu"
+                            style="min-height: 120px; width: 80%;float: left;">
+                            <!-- food row 1 started  -->
+                            <div class="row foodBlock" style="padding: 0; margin: 0 0 50px 0;">
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/Khmer food/bay sach jrok.jpg" alt="Pork-rice" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">PORK RICE</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/Khmer food/bay cha.jpg" alt="Stir-fried-rice" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">STIR FRY RICE</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/Khmer food/mi cha.jpg" alt="Micha" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">STIR FRY NOODLE</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/Khmer food/istockphoto-852541956-612x612.jpg" alt="AH MOK" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">AH MOK FISH</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- food row 1 end  -->
+
+                            <!-- food row 2 started  -->
+                            <div class="row foodBlock" style="padding: 0; margin: 0 0 50px 0;">
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/Korea/kimbap.jpg" alt="kimbap" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">KIMBAP</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/Chinese Food/peking-duck.jpeg" alt="peking duck" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">PEKING DUCK</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/Western food/sandwich.jpg" alt="sandwich" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">SANDWICH</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/Western food/spegati.jpg" alt="spaghetti" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">SPAGHETTI</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- food row 2 end  -->
+
+                            <!-- food row 3 started  -->
+                            <div class="row foodBlock" style="padding: 0; margin: 0 0 50px 0;">
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/drinks/coca.jpg" alt="coca" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">COCA COLA</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/drinks/coffee.jpg" alt="coffee" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">COFFEE</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/drinks/cinamon tea.jpg" alt="cinamon-tea" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">CINAMON TEA</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/drinks/smoothie.jpg" alt="smoothie" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">SMOOTHIE</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- food row 3 end  -->
+
+                            <!-- food row 4 started  -->
+                            <div class="row foodBlock" style="padding: 0; margin: 0 0 50px 0;">
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/dessert/brownie.jpeg" alt="brownie" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">BROWNIE</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/dessert/cupcake.jpg" alt="cupcake" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">CUPCAKE</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/dessert/ice cream.jpg" alt="ice-cream" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">ICE CREAM</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                                <div class="foodBox col-md-3">
+                                    <img src="../ProjectImage/dessert/caramel.jpg" alt="caramel" class="menuImg">
+                                    <h3 style="text-align: center; font-weight: bolder;">CARAMEL</h3>
+                                    <h3 style="text-align: center; color: #ccd27c; font-weight: bolder;">$3.00 - $5.00
+                                    </h3>
+                                    <form>
+                                        <button name="btnAddToCard" class="btnAddToCart">Add to cart</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- food row 4 end  -->
+                            <div class="row" style="margin-left: 40%;margin-right: 40%;">
+                                <div class="col-md-12 pagination">
+                                    <a href="#">&laquo;</a>
+                                    <a class="active" href="#">1</a>
+                                    <a href="#">2</a>
+                                    <a href="#">3</a>
+                                    <a href="#">&raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4" style="
+                      min-height: 150px;
+                      text-align: center;
+                      color: white;
+                    ">
+                        <h3 style="font-weight: bold">OPEN HOUR</h3>
+                        <h5>Monday : 8am - 10am</h5>
+                        <h5>Tuesday : 8am - 10am</h5>
+                        <h5>Wednesday : 8am - 10am</h5>
+                        <h5>Thursday : 8am - 10am</h5>
+                        <h5>Friday : 8am - 10am</h5>
+                        <h5>Saturday : 8am - 10am</h5>
+                        <h5>Monday : 8am - 10am</h5>
+                    </div>
+                    <div class="col-md-4" style="min-height: 150px;color: white; text-align: center;">
+                        <h3 style="font-weight: bold">CONTACT US</h3>
+                        <h4>Tasty@gmail.com</h4>
+                        <div class="social-icon" style="margin-bottom: 15px;margin-top: 25px;">
+                            <img src="../ProjectImage/icon/gmail-icon.png" />
+                            <img src="../ProjectImage/icon/facebook-icon.png" />
+                            <img src="../ProjectImage/icon/instargram-icon.png" />
+                        </div>
+                        <h4 style="margin-top: 50px;">@Copyright All Right Reserved By Tasty</h4>
+                    </div>
+                    <div class="col-md-4" style=" min-height: 150px;color: white; text-align: center;">
+                        <h3 style="font-weight: bold">RATE US</h3>
+                        <div>
+                            <img style="width: 30px;" src="../ProjectImage/icon/star.png">
+                            <img style="width: 30px;" src="../ProjectImage/icon/star.png">
+                            <img style="width: 30px;" src="../ProjectImage/icon/star.png">
+                            <img style="width: 30px;" src="../ProjectImage/icon/star.png">
+                            <img style="width: 30px;" src="../ProjectImage/icon/star.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZh3w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

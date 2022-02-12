@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Lobster&display=swap");
+body,
+html {
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../ProjectImage/background/background3.jpg");
+  width: 100%;
+  height: 760px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-brand {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+.navbar-brand:hover {
+  color: #ccd27c;
+}
+nav li a {
+  color: white;
+}
+nav li a:hover {
+  color: #ccd27c;
+  background-color: transparent;
+  text-decoration: none;
+}
+.backgroundImage {
+  background-image: url("../ProjectImage/background/background3.png");
+  width: 100%;
+  height: 760px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+nav .Menu {
+  float: right;
+  margin-top: 15px;
+}
+
+.Menu li {
+  display: inline;
+  padding-left: 15px;
+}
+.btn-Menu form button {
+  margin-left: 25px;
+  margin-top: 8px;
+  height: 35px;
+  width: 120px;
+  background-color: #ccd27c;
+  border: 1px solid #ccd27c;
+}
+.btn-Menu form button:hover {
+  background-color: #ccd27c;
+  color: black;
+}
+.navbar {
+  background-color: #252525;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  border-radius: 0;
+  z-index: 1;
+}
+/* Add styles to the form container */
+.containerForm {
+  position: absolute;
+  right: 0;
+  margin: 370px 230px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: transparent;
+  color: #f1f1f1;
+}
+
+/* Full-width input fields */
+#phoneNumber {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  border: none;
+  background: #252525;
+  border-radius: 5px;
+}
+.form-control {
+  height: 50px;
+}
+
+/* Set a style for the submit button */
+.btn_Register {
+  background-color: #252525;
+  opacity: 2%;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn_Register:hover {
+  opacity: 1;
+}
+/* do not group these rules */
+*::-webkit-input-placeholder {
+  color: #ccc;
+}
+*:-moz-placeholder {
+  /* FF 4-18 */
+  color: #ccc;
+  opacity: 1;
+}
+*::-moz-placeholder {
+  /* FF 19+ */
+  color: #ccc;
+  opacity: 1;
+}
+*:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ccc;
+}
+*::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ccc;
+}
+*::placeholder {
+  /* modern browser */
+  color: #ccc;
+}
+.social-icon {
+  text-align: center;
+}
+.social-icon img {
+  width: 40px;
+  height: 40px;
+  margin: 10px 15px;
+}
+.glyphicon {
+  margin-left: 10px;
+}
+.glyphicon-heart,
+.glyphicon-shopping-cart,
+.glyphicon-user {
+  font-size: 20px;
+}
+
+.div_footer {
+  width: 100%;
+  min-height: 250px;
+  height: auto;
+  background-color: #252525;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  border: 2px solid #ccd27c;
+  width: 350px;
+  min-height: 350px;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+.text {
+  text-align: center;
+  font-size: 23px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+.icon {
+  text-align: center;
+}
+.icon img {
+  width: 80px;
+}
+.image {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+.General-btn {
+  width: 100%;
+  height: 40px;
+  background-color: #ccd27c;
+  border: 1px solid #ccd27c;
+  border-radius: 2px;
+  font-weight: bold;
+}
+#special .image {
+  width: 450px;
+}
+#special h1 .title {
+  letter-spacing: 2px;
+}
+#img {
+  background-image: url("../ProjectImage/background/bg2.jpg");
+  width: 100%;
+  height: 760px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.textBox {
+  float: left;
+  color: white;
+  text-align: center;
+  margin-top: 55%;
+}
+.textBox h1,
+h2 {
+  font-weight: bold;
+}
+.btn-online {
+  background-color: #ccd27c;
+  color: black;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.btn-online:hover {
+  color: white;
+}
+.register-photo {
+  background: #f1f7fc;
+  padding: 80px 0;
+}
+
+.register-photo .image-holder {
+  display: table-cell;
+  width: auto;
+  background: url("../ProjectImage/background/bg3.jpg");
+  background-size: cover;
+}
+.register-photo .image-holder1 {
+  display: table-cell;
+  width: auto;
+  background: url("https://www.nomnoms.gi/images/mainBanner.jpg");
+  background-size: auto;
+}
+
+.register-photo .form-container {
+  display: table;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.register-photo form {
+  display: table-cell;
+  width: 900px;
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #505e6c;
+}
+
+@media (max-width: 991px) {
+  .register-photo form {
+    padding: 40px;
+  }
+}
+
+.register-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.register-photo form .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 0px;
+  height: 70px;
+}
+
+.register-photo form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.register-photo form .btn-primary {
+  background: #ccd27c;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.register-photo form .btn-primary:hover,
+.register-photo form .btn-primary:active {
+  background: #ccd27c;
+}
+
+.register-photo form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.btn-success {
+  background-color: #ccd27c;
+  border: #ccd27c;
+  color: #252525;
+}
+.btn-success:hover {
+  background-color: #ccd27c;
+  border: #ccd27c;
+  color: white;
+}
+.container .wrapper h2 {
+  position: absolute;
+  font-weight: normal;
+  top: 10px;
+  left: 300px;
+  z-index: 99;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  /* font-size: 3rem; */
+}
+.container .wrapper h2:nth-of-type(1) {
+  z-index: 100;
+  font-size: 8rem;
+  color: #ccd27c;
+  font-family: Brush Script Std;
+  top: 12px;
+}
+
+.container .wrapper h2:nth-of-type(2) {
+  z-index: 101;
+  font-size: 5rem;
+  color: black;
+  top: 40px;
+}
+.container .wrapper {
+  /* align-items: center; */
+  text-align: center;
+  position: relative;
+  height: 20vh;
+  width: 100vw;
+  margin-top: 3rem;
+}
+.container {
+  width: 100%;
+  margin-top: -5;
+  /* position: relative; */
+}
+.H-title {
+  padding-left: 150px;
+}
+.H-title h2 {
+  color: #ccd27c;
+  font-family: Script MT;
+  font-size: 4rem;
+}
+.imagee {
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  margin-left: 100px;
+}
+/* td,
+th {
+  padding: 30px;
+  padding-left: 150px;
+} */
+.cart-page {
+  margin: 80px auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-wedding-planning {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.btn-image-wedding {
+  width: 100%;
+  height: 200px;
+  background: #112133;
+}
+.wedding-content-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+/* neath continue */
+.heading {
+  position: absolute;
+  color: #ccd27c;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: -1;
+  line-height: 1;
+  font-family: "Great Vibes", cursive;
+  margin-top: 0;
+  font-size: 90px;
+}
+.subheading {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+#category_box {
+  padding: 10px 40px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+#category_box h3 a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #252525;
+}
+#category_box ul {
+  padding: 0 15px;
+}
+#category_box ul li {
+  margin: 10px 0;
+}
+#category_box ul li a {
+  font-size: 18px;
+  color: #252525;
+  text-decoration: none;
+  line-height: 2;
+  letter-spacing: 0.2px;
+}
+#category_box ul li a:hover {
+  color: #ccd27c;
+}
+.glyphi {
+  width: 150px;
+}
+.foodBox {
+  width: 257px;
+  min-height: 120px;
+  height: auto;
+  border: 2px dashed #eeeeee;
+  border-radius: 10px;
+  margin: 0 20px;
+  padding: 30px 30px;
+}
+.foodBox:hover {
+  border-color: #ccd27c;
+}
+.btnAddToCart {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #ccd27c;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.btnAddToCart:hover {
+  background-color: #ccd27c;
+  color: #ffffff;
+}
+.menuImg {
+  width: 100%;
+  border-radius: 10px;
+}
+.pagination a {
+  color: black;
+  text-decoration: none;
+  float: left;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+.pagination a.active {
+  color: white;
+  background-color: #ccd27c;
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+/* neath end */

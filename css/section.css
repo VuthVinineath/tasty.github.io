@@ -1,0 +1,37 @@
+#sellType {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+#favorite {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #252525;
+  border: #252525;
+}
+#special {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+#contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #252525;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* position: absolute; */
+}
+#food_menu {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
